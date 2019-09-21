@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: rgb(240, 240, 240);
+}
+
+#word-header {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('img/bg.png');
+  background-size: 100%;
+  background-position: center;
+  position: initial;
+}
+
+.mdc-layout__container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  justify-content: flex-start;
+}
+
+.mdc-layout__content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mdc-card__secondary,
+.mdc-card__primary {
+  padding: 1rem;
+}
+
+#solved-word-list {
+  border: 1px solid rgba(0, 0, 0, .1);
+  background-color: rgb(255, 255, 255);
+}
+
+.mdc-card__title {
+  margin: 0;
+  color: rgb(60, 60, 60);
+}

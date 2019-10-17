@@ -13,7 +13,7 @@ This is a dodgy Text Twist game that is inspired by [TextTwist2](https://www.min
 	* material-components-web
 
 ### Acknowledges ###
-	* Andy Novicin for the assignment and inspiration :v
+	* Andy Novocin for the assignment and inspiration :v
 
 ### Who do I talk to? ###
 	* D_Pain - 
